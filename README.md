@@ -1,36 +1,37 @@
-# 2048.py
+<h1 align="center">
+  <br>
+  <a href="#"><img src="assets/2048.png" alt="Just a logo with 2048 text" width="60"></a>
+  <br>
+  2048.py
+  <br>
+</h1>
 
+Implementação do jogo 2048 em Python para ser executado no terminal, muitos ajustes ainda precisam ser feitos, está bastante mal codado :D.
 
-install getkey via pip 
+---
 
-sudo pip install getkey
+## Instalação
 
-# Foobar
+É somente necessário o pacote `getkey` que pode ser instalado via pip usando o comando:
 
-Foobar is a Python library for dealing with word pluralization.
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
+```
+pip install getkey
 ```
 
-## Usage
+## Uso
 
-```python
-import foobar
+Para executar, basta executar o script com:
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+```
+python 2048.py
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+e utilizar as setas direcionais do teclado: `↑`,`←`,`→` e `↓` para jogar.
 
-Please make sure to update tests as appropriate.
+## Contribuindo
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Pull requests são sempre bem vindos, posso ter esquecido de alguma coisa, ou me passado em algo. Se for uma mudança grande, abre uma Issue antes pra gente discutir as mudanças. Obrigado!
+
+## Licença
+
+[MIT License](LICENSE)
